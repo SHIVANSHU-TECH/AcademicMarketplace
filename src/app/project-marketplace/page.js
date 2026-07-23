@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -54,7 +55,7 @@ export default function ProjectMarketplace() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBkmEcpmkcI6GspfV0Mm4clZCaoiZ8QyRu7rZKXVAmtYmPno8nMnf5L8JboarJtNpNPzdv7iUl3r_tI-Og752iR6-5nF6mEIembQ7RmPvycGfQOjN7kneVDAFiYNbomO5QLUuGcc3JqvzRe-WQoulDdXmajhfoFOPeN2OlVugwciZtl9f_btEwnB9SsmpibN356_g84ytlyUWnZGMHJVuirhZQaPaCgEgZsef5cM67OXIEvrckuw_VUPCjV2GsfzfAszNR2xi5Isg" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBkmEcpmkcI6GspfV0Mm4clZCaoiZ8QyRu7rZKXVAmtYmPno8nMnf5L8JboarJtNpNPzdv7iUl3r_tI-Og752iR6-5nF6mEIembQ7RmPvycGfQOjN7kneVDAFiYNbomO5QLUuGcc3JqvzRe-WQoulDdXmajhfoFOPeN2OlVugwciZtl9f_btEwnB9SsmpibN356_g84ytlyUWnZGMHJVuirhZQaPaCgEgZsef5cM67OXIEvrckuw_VUPCjV2GsfzfAszNR2xi5Isg" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-4 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -69,7 +70,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAveh1nYqYlaEmyrfmLtwnxfjy1raVvoiuw5C0Vd4uCuYTGmRh6TJjMg8KoY58YDFOQH5MKjyBVF_OW7OmQargKmp_Q6QMNXCZcWAhOmK4QHShigHfCPaeH2U_5Xjyln7etFj-G0IQaSWlBcXyVS9T4fLtaWJzwOWufE3kGdeSuLme_NbU7f_1FSmWZGEPnmcSZvL-Xpr5j_vPkZoRBhyOj1Sx8dBauzxNY3yfhNBEiB2rDVDlRgBvfktv6iCCMIAfLbAe0DiDlK8" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAveh1nYqYlaEmyrfmLtwnxfjy1raVvoiuw5C0Vd4uCuYTGmRh6TJjMg8KoY58YDFOQH5MKjyBVF_OW7OmQargKmp_Q6QMNXCZcWAhOmK4QHShigHfCPaeH2U_5Xjyln7etFj-G0IQaSWlBcXyVS9T4fLtaWJzwOWufE3kGdeSuLme_NbU7f_1FSmWZGEPnmcSZvL-Xpr5j_vPkZoRBhyOj1Sx8dBauzxNY3yfhNBEiB2rDVDlRgBvfktv6iCCMIAfLbAe0DiDlK8" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -84,7 +85,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrOZnnHFceoLR5-EWx5LHZbvLj-gHgMSHM-Q98sIoooZsyHOzpcG_CXbhKhxb6tErLRYC7ELVH29AcsoxBe0bB2p1Uyw2n8zLfTD4qUj4tdWX-mLLBV7owjlJeozghbstxtpSFPAfqFAynayMeYZlw_HKUffys38wK61UmwCbT7Cs4sN7e3ygU40ByeAwEBmzgovd_ZwT2KquKALJsFwbL5mIOAP0JGi5n0qgRAJdvGYFWBMdx3a192F5vAQWSCJER0DEnfQyKkVI" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrOZnnHFceoLR5-EWx5LHZbvLj-gHgMSHM-Q98sIoooZsyHOzpcG_CXbhKhxb6tErLRYC7ELVH29AcsoxBe0bB2p1Uyw2n8zLfTD4qUj4tdWX-mLLBV7owjlJeozghbstxtpSFPAfqFAynayMeYZlw_HKUffys38wK61UmwCbT7Cs4sN7e3ygU40ByeAwEBmzgovd_ZwT2KquKALJsFwbL5mIOAP0JGi5n0qgRAJdvGYFWBMdx3a192F5vAQWSCJER0DEnfQyKkVI" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -99,7 +100,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDibgHmVCb0pLx2AcPk6bi9HGyDTjX8usIwdhuWDjunt8Nozrh3qFRiMPrKhd9K2svYL-SgCvlOerim0swwx7_ev3PXO37txYUwHpvqJvy61S-x3Y6WjyF1gRGLRvchoTKXdCO1QOVtZz6WD28LGD0ND-bSOHsvCAN2SU3u39T9AgGWFvFpv7p093nzEvyQCQ2gt__f_Kg1ikGwCmDLPD7At3KUhbISy9Rc_IIoxjVYYFModrUzwZ3PjUU32XjVQiQOP9g0E8fQLTU" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDibgHmVCb0pLx2AcPk6bi9HGyDTjX8usIwdhuWDjunt8Nozrh3qFRiMPrKhd9K2svYL-SgCvlOerim0swwx7_ev3PXO37txYUwHpvqJvy61S-x3Y6WjyF1gRGLRvchoTKXdCO1QOVtZz6WD28LGD0ND-bSOHsvCAN2SU3u39T9AgGWFvFpv7p093nzEvyQCQ2gt__f_Kg1ikGwCmDLPD7At3KUhbISy9Rc_IIoxjVYYFModrUzwZ3PjUU32XjVQiQOP9g0E8fQLTU" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -114,7 +115,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJNcHfaRjE4Vka5TOOJ_JnHZ4HnPeUJ1HeBc3bk-75KzsPm4eDvkCLpDCJemzXAqZPM1Vbe-Zp0Lgv6MQ9Z1q3g810epcJPdPcqAGZc3erTrWA0khQEwGcTCPKTYzaj0e-thc4ZnA1cq-II-xof1AsEYWUhs1U5veBNVMw_4u8fzjUVr2NTyYU474U_bgyjS9AGHCpWg8P3vexwYmXIGDI9aH4H8l6DdgdseFwvcQ5RpulklP41gGuOKwSkzcUkBU6ik2APi10HNs" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJNcHfaRjE4Vka5TOOJ_JnHZ4HnPeUJ1HeBc3bk-75KzsPm4eDvkCLpDCJemzXAqZPM1Vbe-Zp0Lgv6MQ9Z1q3g810epcJPdPcqAGZc3erTrWA0khQEwGcTCPKTYzaj0e-thc4ZnA1cq-II-xof1AsEYWUhs1U5veBNVMw_4u8fzjUVr2NTyYU474U_bgyjS9AGHCpWg8P3vexwYmXIGDI9aH4H8l6DdgdseFwvcQ5RpulklP41gGuOKwSkzcUkBU6ik2APi10HNs" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -129,7 +130,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARRGIKZDoYh2pAwREIVTjizrW9WNi9-tTBJvsFfAorpomm9RWKMtija10jEiuO4Pm7Ngv6icwkYPKX3c51fAvRr9XMOaF330ItVncuYWNjsZxTfgf1vRTAmyJi5H0c7yseynVTGlOin5F91SZAohLWnNxnd9kG2SOlUzHJr7Q7LGNXyPNIM6xYf5L89Oeg-xmv5_4fOd1CiZtYMDjJ_xMNjSt7UydPbAM8F6PALV96wbjarHWaiYWxtVXczdPVr90o_IhE03igu_Q" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARRGIKZDoYh2pAwREIVTjizrW9WNi9-tTBJvsFfAorpomm9RWKMtija10jEiuO4Pm7Ngv6icwkYPKX3c51fAvRr9XMOaF330ItVncuYWNjsZxTfgf1vRTAmyJi5H0c7yseynVTGlOin5F91SZAohLWnNxnd9kG2SOlUzHJr7Q7LGNXyPNIM6xYf5L89Oeg-xmv5_4fOd1CiZtYMDjJ_xMNjSt7UydPbAM8F6PALV96wbjarHWaiYWxtVXczdPVr90o_IhE03igu_Q" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -144,7 +145,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-gBU2TtMjsAvyIYoC_dPRFVqPNL6x3TOjWn2j2S-c82PqeJY8nNi3Ne2x83V5gvMKVsxtTdDYmxyCnnt6T2_cxD4S2Dpfi_IsIDkmAy7beNETXsx-kyOZGLvlZ1LD_TOYrvjLjo7hhSuR-1Xt40OdcEglT_VFHCF3qrGQg5r5yeueGXyNEPgdm2GQ5GfPFUhAwxmsPuqWOIjIb8HuLpi19SfjJA891YJ5rYLCQjqrXT5cGkDQ8_0_TiaYmtRa9K1TUnenYFCxZY" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-gBU2TtMjsAvyIYoC_dPRFVqPNL6x3TOjWn2j2S-c82PqeJY8nNi3Ne2x83V5gvMKVsxtTdDYmxyCnnt6T2_cxD4S2Dpfi_IsIDkmAy7beNETXsx-kyOZGLvlZ1LD_TOYrvjLjo7hhSuR-1Xt40OdcEglT_VFHCF3qrGQg5r5yeueGXyNEPgdm2GQ5GfPFUhAwxmsPuqWOIjIb8HuLpi19SfjJA891YJ5rYLCQjqrXT5cGkDQ8_0_TiaYmtRa9K1TUnenYFCxZY" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
@@ -159,7 +160,7 @@ export default function ProjectMarketplace() {
             </div>
             <div className="group overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-lg">
               <div className="relative">
-                <img alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGgx8hWxCVCkekAVxAJv6lhSkeJmoObAKz0n79_h5dsX26FVVjI5zDdJPz_KJw9Zbk4kpEWrY3huSpBF7oF7jQA7JVZ35AP46WlVgDfEiF7jE51WtmWRlMZVJu6PJr9E1KVlj4f4i3pUYaEHPkXABZdMf9HYtmG6K6MXjLjtyUq9Lnd5eA-7LVzhvbaJsS1raF4GQi5cnKJPdNjTtE28nj6yogKtDcGIgfcYqHWKsDXzRY1W2Ln8L27LJJsh8mFNRHHYJOo-Rjzzk" />
+                <Image alt="Project thumbnail" className="h-48 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGgx8hWxCVCkekAVxAJv6lhSkeJmoObAKz0n79_h5dsX26FVVjI5zDdJPz_KJw9Zbk4kpEWrY3huSpBF7oF7jQA7JVZ35AP46WlVgDfEiF7jE51WtmWRlMZVJu6PJr9E1KVlj4f4i3pUYaEHPkXABZdMf9HYtmG6K6MXjLjtyUq9Lnd5eA-7LVzhvbaJsS1raF4GQi5cnKJPdNjTtE28nj6yogKtDcGIgfcYqHWKsDXzRY1W2Ln8L27LJJsh8mFNRHHYJOo-Rjzzk" width={400} height={192} />
                 <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="absolute bottom-0 left-4 right-4 flex gap-2 opacity-0 transition-all group-hover:bottom-4 group-hover:opacity-100">
                   <button className="flex-1 rounded-md bg-white px-3 py-2 text-sm font-semibold text-[var(--gray-900)]">View Details</button>
