@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
                 <p className="text-sm text-gray-500">Jan 2023</p>
               </div>
             </div>
-            <p className="text-gray-700">"StudyHub has been a game-changer for my studies. The projects are well-structured and the notes are concise and easy to understand."</p>
+            <p className="text-gray-700">&ldquo;StudyHub has been a game-changer for my studies. The projects are well-structured and the notes are concise and easy to understand.&rdquo;</p>
           </div>
           <div className="bg-[var(--brand-light)] p-8 rounded-xl shadow-lg">
             <div className="flex items-center mb-4">
@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
                 <p className="text-sm text-gray-500">Feb 2023</p>
               </div>
             </div>
-            <p className="text-gray-700">"I found exactly what I needed for my final year project. The quality is excellent and the price is very reasonable."</p>
+            <p className="text-gray-700">&ldquo;I found exactly what I needed for my final year project. The quality is excellent and the price is very reasonable.&rdquo;</p>
           </div>
         </div>
       </div>

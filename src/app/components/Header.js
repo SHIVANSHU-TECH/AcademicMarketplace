@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Header() {
           <path d="M2 17L12 22L22 17" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
           <path d="M2 12L12 17L22 12" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
         </svg>
-        <a href="/" className="text-xl font-bold tracking-tight">StudyHub</a>
+        <Link href="/" className="text-xl font-bold tracking-tight">StudyHub</Link>
       </div>
       <div className="flex-1 max-w-lg hidden md:block">
         <div className="relative">
@@ -32,7 +33,7 @@ export default function Header() {
         <a className="text-sm font-medium hover:text-[var(--brand-primary)] transition-colors" href="/seller-dashboard">Seller Dashboard</a>
       </nav>
       <div className="flex items-center gap-4">
-        <a className="text-sm font-medium text-[var(--brand-dark)] hover:text-[var(--brand-primary)] transition-colors" href="/">Login</a>
+        <Link className="text-sm font-medium text-[var(--brand-dark)] hover:text-[var(--brand-primary)] transition-colors" href="/login">Login</Link>
         <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-[var(--brand-primary)] text-[var(--brand-light)] text-sm font-bold shadow-md hover:bg-indigo-700 transition-all">
           <span className="truncate">Sign up</span>
         </button>

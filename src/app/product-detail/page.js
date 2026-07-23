@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -10,7 +11,7 @@ export default function ProductDetail() {
       <main className="flex-grow bg-[var(--brand-white)]">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="mb-6 text-sm text-gray-500">
-            <a className="hover:underline" href="/">Home</a> / 
+            <Link className="hover:underline" href="/">Home</Link> / 
             <a className="hover:underline" href="/project-marketplace"> Projects</a> / 
             <span className="font-medium text-[var(--brand-primary)]"> Machine Learning Project</span>
           </div>
@@ -103,7 +104,7 @@ export default function ProductDetail() {
                   Support
                 </h3>
                 <p className="text-base text-gray-600">
-                  For any questions or support, please contact the seller directly through the platform's messaging system. Sophia typically responds within 24 hours.
+                  For any questions or support, please contact the seller directly through the platform&apos;s messaging system. Sophia typically responds within 24 hours.
                 </p>
               </div>
             </div>
